@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Iframe</title>
+    <link href="estilos.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Bienvenidos a InstaPet</h1>
+    <p>InstaPet es una red social exclusiva para mascotas, en dicha red, podés dar a conocer 
+        a tu mascota para que haga amigos, consiga pareja o para que los dueños compartan sus
+        experiencias con ellas y ayudarse mutuamente.
+    </p>
+
+        <form class="formulario" action="https://formspree.io/f/xvonpzyl" method="post">
+            <lebel> Nombre de la mascota:
+            <input class="datos" placeholder="Ingresa el nombre" type="text" name="nombre" required>
+            </lebel> 
+            <label> Edad del Canino:
+             <input class="datos"placeholder="Ingresa edad" type="number" name="edad" required>
+            </lebel> 
+            <label>Macho:
+             <input class="genero" type="radio" name="macho" value="male">
+            </label>
+            <label>Hembra:
+             <input class="genero" type="radio" name="hemabra" value="female">
+            </label><br/>
+            <lebel>Color:
+             <input id="colores" type="color" required>
+            </lebel>
+            <label> Elige tipo de mascota:
+            <select id="opciones" name="auto">
+              <option value="Guau">Perro</option>
+              <option value="Miau">Gato</option>
+              <option>Cobayo</option>
+              <option>otros</option>   
+            </select>
+           </label>
+            <label> Tu E-mail:
+             <input class="datos" placeholder="Ingresa tu email" type="email" name="correo" required>
+            </lebel> 
+            <label> Crea tu Contraseña:
+             <input class="datos" placeholder="Ingresa tu contraseña" type="password" name="contraseña" required>
+            </label>
+            <label>Contanos acerca de tu mascota:
+             <textarea 
+             id= "comentarios" name="Comentarios" rows="10" cols="40" placeholder="Escribinos acá si es tranquilo o travieso"></textarea>
+            </label>
+             <input id="enviar" type="submit" type="enviar" value="Registrar Mascota">
+            <label> Acepta los terminos y condiciones:
+             <input id="condiciones" type="checkbox" name="terminos_condiciones" value="aceptar">
+            </label>
+
+         </form>
+         
+         <iframe class="marco" src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d26276.097802812386!2d-58.4091631622616!3d-34.59120681434258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x95bccabc7f3fd21f%3A0xef4ce56a7f45abb0!2sMontevideo%201512%2C%20Montevideo%2C%20Buenos%20Aires%2C%20Argentina!3m2!1d-34.592303699999995!2d-58.3888973!4m5!1s0x95bccaa2bbdec051%3A0xbfa10f095633c7a1!2sPe%C3%B1a%202072%2C%20C1113%20CABA%2C%20Argentina!3m2!1d-34.592160799999995!2d-58.3956893!5e0!3m2!1ses-419!2snz!4v1671442658236!5m2!1ses-419!2snz" width="600" height="300"></iframe>
+         <iframe class="marco"src="https://www.youtube.com/embed/EG3E0TDfOp4" title="YouTube video " width="600" height="300"> </iframe>
+</body>
+</html>

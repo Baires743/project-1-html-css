@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Monserrat', sans-serif;
+ }
+ 
+ html{
+     font-size: 100%;
+ }
+ 
+ body{
+     font-size: 1.9rem;
+     background: url(petphoto.jpg);
+     background-attachment: fixed;
+     background-size:contain;
+ }
+ 
+ .formulario{
+     width: 50%;
+     min-width: 50%;
+     background: rgba(0, 0, 0, 0.491);
+     margin: auto;
+     color: #cefc05;
+     margin-top: 50px;
+     padding: 20px;
+ }
+ .datos{
+     width: 100%;
+     height: 30px;
+     background: rgba(242, 175, 245, 0.288);
+     padding: 10px;
+     outline: none;
+     border: none;
+     border-bottom:2px solid #cefc05;
+     font-size: 1.4rem;
+ }
+ #colores{
+     width: 100%;
+     height: 40px;
+     background: rgba(242, 175, 245, 0.288);
+     padding: 10px;
+     outline: none;
+     border: none;
+ 
+ }
+ #condiciones{
+    width: 20%;
+    height: 20px;
+    background: rgba(242, 175, 245, 0.288);
+    padding: 10px;
+    outline: none;
+    border: none;
+ }
+ #comentarios{
+    background: #ffffff;
+    border: none;
+    margin-left: 25%;
+    
+ }
+
+ #opciones{
+    width: 100%;
+    height: 40px;
+    background: rgba(242, 175, 245, 0.288);
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-bottom:2px solid #cefc05;
+
+
+ }
+ #enviar{
+     width: 100%;
+     height: 30px;
+     outline: none;
+     border: none;
+     background: #62e273;
+     color: #ffffff;
+     text-align: center;
+     font-size: 1.6rem;
+     margin: 20px 0 20px 0;
+     cursor: pointer;
+ 
+ 
+ }
+ .genero{
+    width: 60px;
+    height: 25px;
+    padding: 10px;
+
+ }
+ h1{
+     text-align: center;
+     color: #62e2dc;
+     font-style:italic;
+     background-color: rgba(235, 115, 215, 0.096);
+     font-size: 80px;
+     
+     
+ }
+ 
+ p{
+     text-align: center;
+     color: #f87924c5;
+     font-size: 35px;
+ }
+ .marco{
+     width: 100%;
+     border: solid black;
+
+ }
